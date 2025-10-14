@@ -205,23 +205,17 @@ Wei Li, Megha Chakraborty, **Yu Sha**, Kai Zhou, Johannes Faber, Georg Rümpker,
 
 
 <!-- 11 -->
-[Deep Learning-based Small Magnitude Earthquake Detection and Seismic Phase Classification](https://arxiv.org/pdf/2204.02870.pdf)
-
-Wei Li, **Yu Sha**, Kai Zhou, Johannes Faber, Georg Rümpker, Horst Stöcker, Nishtha Srivastava
+[Deep Learning-based Small Magnitude Earthquake Detection and Seismic Phase Classification](https://arxiv.org/pdf/2204.02870.pdf), Wei Li, **Yu Sha**, Kai Zhou, Johannes Faber, Georg Rümpker, Horst Stöcker, Nishtha Srivastava
 
 
 
 <!-- 12 -->
-[Smart home system based on STC89C52](http://www.cqvip.com/qk/97913x/201803/674492691.html)
-
-Liang Qin, **Yu Sha**, Yumeng Xu
+[Smart home system based on STC89C52](http://www.cqvip.com/qk/97913x/201803/674492691.html), Liang Qin, **Yu Sha**, Yumeng Xu
 
 
 
 <!-- 13 -->
-[Study on operation analysis and decision making for sharing-bicycles](http://www.infocomm-journal.com/bdr/CN/Y2019/V5/I1/87)
-
-Hong Zhang, Dixin Zhou, Chuanqi Cheng, **Yu Sha** 
+[Study on operation analysis and decision making for sharing-bicycles](http://www.infocomm-journal.com/bdr/CN/Y2019/V5/I1/87), Hong Zhang, Dixin Zhou, Chuanqi Cheng, **Yu Sha** 
 
 
 
