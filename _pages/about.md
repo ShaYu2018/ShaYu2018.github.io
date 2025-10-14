@@ -66,7 +66,7 @@ My research interests include AI for Industry/Science (especially AI for acousti
 
 # 📚 Publications
 <!-- 1 -->
-<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">KDD 2024 (Oral&Poster)</div><img src='images/KDD2024.png' alt="sym" width="300"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">KDD 2024 (Oral&Poster)</div><img src='images/KDD2024.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Hierarchical Knowledge Guided Fault Intensity Diagnosis of Complex Industrial Systems
@@ -79,7 +79,7 @@ Hierarchical Knowledge Guided Fault Intensity Diagnosis of Complex Industrial Sy
 
 
 <!-- 2 -->
-<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">ESWA 2024</div><img src='images/ESWA2024.png' alt="sym" width="300"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">ESWA 2024</div><img src='images/ESWA2024.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Hierarchical Cavitation Intensity Recognition Using Sub-Master Transition Network-based Acoustic Signals in Pipeline Systems
@@ -92,7 +92,7 @@ Shuiping Gou, **Yu Sha<sup>*</sup>**, Bo Liu, Ningtao Liu, Johannes Faber, Stefa
 
 
 <!-- 3 -->
-<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">KDD 2022 (Poster)</div><img src='images/KDD2022.png' alt="sym" width="300"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">KDD 2022 (Poster)</div><img src='images/KDD2022.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Regional-Local Adversarially Learned One-Class Classifier Anomalous Sound Detection in Global Long-Term Space
@@ -105,7 +105,7 @@ Regional-Local Adversarially Learned One-Class Classifier Anomalous Sound Detect
 
 
 <!-- 4 -->
-<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">EAAI 2022</div><img src='images/EAAI2022.png' alt="sym" width="300"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">EAAI 2022</div><img src='images/EAAI2022.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 A multi-task learning for cavitation detection and cavitation intensity recognition of valve acoustic signals
@@ -118,7 +118,7 @@ A multi-task learning for cavitation detection and cavitation intensity recognit
 
 
 <!-- 5 -->
-<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">Measurement 2022</div><img src='images/Measurement2022.png' alt="sym" width="300"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">Measurement 2022</div><img src='images/Measurement2022.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 An acoustic signal cavitation detection framework based on XGBoost with adaptive selection feature engineering
@@ -131,7 +131,7 @@ An acoustic signal cavitation detection framework based on XGBoost with adaptive
 
 
 <!-- 6 -->
-<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">MIR 2025</div><img src='images/MIR2023.png' alt="sym" width="300"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">MIR 2025</div><img src='images/MIR2023.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Prioritization Hindsight Experience based on Spatial Position Attention for Robots
