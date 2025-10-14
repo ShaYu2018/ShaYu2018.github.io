@@ -17,7 +17,7 @@ jobs:
       run: |
         cd ./google_scholar_crawler
         pip3 install -r requirements.txt
-        python3 main.py
+        python3 update_scholar.py
         cd ./results
         git init
         git config --local user.name "${GITHUB_ACTOR}"
