@@ -1,18 +1,19 @@
 name: Update Google Scholar Citations Badge
 
 permissions:
-  contents: write   # 👈 允许修改仓库内容
+  contents: write   # 允许修改仓库内容
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 0点自动运行
-  workflow_dispatch:      # 手动触发
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
       - name: Set up Python
@@ -20,12 +21,12 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
+      - name: Install scholarly
         run: pip install scholarly
 
-      - name: Run update script
+      - name: Run update_scholar.py
         env:
-          GOOGLE_SCHOLAR_ID: e5ng8m0AAAAJ&hl=zh-CN    # 你的Google Scholar ID
+          GOOGLE_SCHOLAR_ID: e5ng8m0AAAAJ    # 你的 Google Scholar ID
         run: python update_scholar.py
 
       - name: Commit and push results
@@ -33,5 +34,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add results/*
-          git commit -m "Updated Google Scholar citations" || echo "No changes to commit"
+          git commit -m "Update Scholar Badge JSON" || echo "No changes"
           git push
