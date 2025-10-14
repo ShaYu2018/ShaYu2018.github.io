@@ -196,6 +196,16 @@ Wei Li, Megha Chakraborty, **Yu Sha**, Kai Zhou, Johannes Faber, Georg Rümpker,
 </div>
 
 
+<!-- 11 -->
+<div class="paper-text">
+Deep Learning-based Small Magnitude Earthquake Detection and Seismic Phase Classification
+
+Wei Li, **Yu Sha**, Kai Zhou, Johannes Faber, Georg Rümpker, Horst Stöcker, Nishtha Srivastava  
+
+*arXiv* 2204.02870 | [Paper](https://arxiv.org/pdf/2204.02870.pdf) | [Code](https://github.com/srivastavaresearchgroup/Seismic-phase-Classification)
+</div>
+
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     const papers = document.querySelectorAll(".paper-box-text"); 
