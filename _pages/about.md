@@ -66,7 +66,7 @@ My research interests include AI for Industry/Science (especially AI for acousti
 
 # 📚 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2024 (Oral&Poster)</div><img src='images/KDD2024.png' alt="sym" width="370" height="180" style="box-shadow: 3px 3px 6px #888;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2024 (Oral&Poster)</div><img src='images/KDD2024.png' alt="sym" width="200" height="220" style="box-shadow: 3px 3px 6px #888;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Hierarchical Knowledge Guided Fault Intensity Diagnosis of Complex Industrial Systems](https://doi.org/10.1145/3637528.3671610)
