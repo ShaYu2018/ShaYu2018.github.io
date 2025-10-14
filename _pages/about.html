@@ -56,6 +56,57 @@ My research interests include AI for Industry/Science (especially AI for acousti
   </div>
 </div>
 
+<style>
+    #news-container {
+    width: 88%;
+  }
+  
+  #news-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    animation: scroll 15s linear infinite;
+  }
+  
+  #news-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  #news-list li:last-child {
+    border-bottom: none;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(calc(-100% + 400px));
+    }
+  }
+  
+  #news-container:hover #news-list {
+    animation-play-state: paused;
+  }
+</style>
+
+<script>
+  // 确保内容足够长以滚动
+  document.addEventListener('DOMContentLoaded', function() {
+    const newsList = document.getElementById('news-list');
+    const container = document.getElementById('news-container');
+    
+    // 复制列表内容以创建连续滚动效果
+    if (newsList.scrollHeight > container.clientHeight) {
+      newsList.innerHTML += newsList.innerHTML;
+    }
+    
+    // 调整动画时间基于内容长度
+    const duration = newsList.scrollHeight / 50; // 调整除数控制速度
+    newsList.style.animationDuration = duration + 's';
+  });
+</script>
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
