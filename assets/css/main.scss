@@ -10,93 +10,89 @@
  *
 */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
-@import "variables";
-@import "mixins";
-@import "vendor/susy/susy";
+/* ====== 基础主题文件引入 ====== */
+@import "vendor/breakpoint/breakpoint"; // Media query mixins
+@import "variables";                    // 主题变量设置
+@import "mixins";                        // 混入（复用的样式块）
+@import "vendor/susy/susy";              // 栅格系统
 
-@import "reset";
-@import "base";
+/* ====== 样式组件 ====== */
+@import "reset";                         // CSS Reset
+@import "base";                          // 通用基础样式
+@import "utilities";                     // 工具类
+@import "animations";                    // 动画
+@import "tables";                        // 表格样式
+@import "buttons";                       // 按钮样式
+@import "notices";                       // 通知样式
+@import "masthead";                      // 页眉
+@import "navigation";                    // 导航栏
+@import "footer";                        // 页脚
+@import "syntax";                        // 代码高亮
 
-@import "utilities";
-@import "animations";
-@import "tables";
-@import "buttons";
-@import "notices";
-@import "masthead";
-@import "navigation";
-@import "footer";
-@import "syntax";
+@import "forms";                         // 表单样式
+@import "page";                          // 页面内容
+@import "archive";                       // 列表归档
+@import "sidebar";                       // 侧边栏
 
-@import "forms";
-
-@import "page";
-@import "archive";
-@import "sidebar";
-
+/* ====== 第三方组件样式 ====== */
 @import "vendor/font-awesome/fontawesome";
 @import "vendor/font-awesome/solid";
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
-@import "print";
+@import "print";                         // 打印样式
 
+/* ====== paper-box 样式修改 ====== */
 .paper-box {
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    padding: 2em 0;
 
-    .paper-box-image{
-        justify-content: center;
+    /* 图片容器（默认移动端布局） */
+    .paper-box-image {
         display: flex;
+        justify-content: center;
         width: 100%;
         order: 2;
+
         img {
-            max-width: 400px;
+            max-width: 400px;      /* 图片最大宽度 */
+            width: 100%;           /* 图片自适应容器 */
+            height: auto;          /* 保持比例 */
             box-shadow: 3px 3px 6px #888;
             object-fit: cover;
         }
     }
-    
-    .paper-box-text{
+
+    /* 文字容器（默认移动端布局） */
+    .paper-box-text {
         max-width: 100%;
         order: 1;
     }
-    
+
+    /* 中等屏幕及以上的样式（桌面布局） */
     @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
+        .paper-box-image {
+            justify-content: flex-start;
+            width: auto;         /* 跟随图片大小变化 */
+            min-width: 150px;    /* 图片容器最小宽度 */
+            margin-right: 2em;
             order: 1;
         }
-        
-        .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
+
+        .paper-box-text {
+            flex: 1;             /* 自动占满剩余空间 */
+            padding-left: 0;     /* 移除左内边距 */
+            max-width: none;     /* 取消固定比例限制 */
             order: 2;
         }
-
     }
-
-
 }
 
-$scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
-    margin-top: -$scroll_offset;
-}
-
+/* ====== 会议徽章样式 ====== */
 .badge {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -106,4 +102,15 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+}
+
+/* ====== 页面锚点偏移设置 ====== */
+$scroll_offset : 2em;
+h1:before, .anchor:before { 
+    content: ''; 
+    display: block; 
+    position: relative; 
+    width: 0; 
+    height: $scroll_offset; 
+    margin-top: -$scroll_offset;
 }
