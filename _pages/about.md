@@ -92,7 +92,7 @@ Shuiping Gou, **Yu Sha<sup>*</sup>**, Bo Liu, Ningtao Liu, Johannes Faber, Stefa
 
 
 <!-- 3 -->
-<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">KDD 2022 (Poster)</div><img src='images/KDD2022.png' alt="sym""></div></div>
+<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">KDD 2022 (Poster)</div><img src='images/KDD2022.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Regional-Local Adversarially Learned One-Class Classifier Anomalous Sound Detection in Global Long-Term Space
