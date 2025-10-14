@@ -45,7 +45,7 @@ My research interests include AI for Industry/Science (especially AI for acousti
 
 # 🔍 Researches
 
-### AI in Industry
+## AI in Industry
 - **Supervised learning for acoustic damage detection and diagnosis** [<a style="color: #447ec9" href="https://www.sciencedirect.com/science/article/pii/S0957417424020220">1</a>, <a style="color: #447ec9"  href="https://www.sciencedirect.com/science/article/pii/S0952197622001361">2</a>, <a style="color: #447ec9" href="https://dl.acm.org/doi/abs/10.1145/3637528.3671610">3</a>].
 - **Unsupervised learning for acoustic signal anomalous sound detection** [<a style="color: #447ec9" href="https://dl.acm.org/doi/abs/10.1145/3534678.3539133">4</a>].
 
