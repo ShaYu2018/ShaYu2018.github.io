@@ -71,7 +71,7 @@ My research interests include AI for Industry/Science (especially AI for acousti
 
 [Hierarchical Knowledge Guided Fault Intensity Diagnosis of Complex Industrial Systems](https://doi.org/10.1145/3637528.3671610)
 
-**Yu Sha****, Shuiping Gou, Bo Liu, Ningtao Liu, Johannes Faber, Stefan Schramm, Horst Stoecker, Thomas Steckenreiter, Domagoj Vnucec, Nadine Wetzstein, Andreas Widl, Kai Zhou 
+**Yu Sha**, Shuiping Gou, Bo Liu, Ningtao Liu, Johannes Faber, Stefan Schramm, Horst Stoecker, Thomas Steckenreiter, Domagoj Vnucec, Nadine Wetzstein, Andreas Widl, Kai Zhou 
 - The paper explores hierarchical Knowledge of labels with GCN.
 - The paper presents the Hierarchical Knowledge Correlation Matrix.
 - The sound cavitation datasets provided by SAMSON AG.
