@@ -185,21 +185,21 @@ Study on operation analysis and decision making for sharing-bicycles. Hong Zhang
 </div>
 
 ### Patents:
-<div class="paper-box-text" markdown="1">
-Heart rate estimation method based on cross-modal mapping of heart impact map signals. Shuiping Gou, Yuanjie Liu, Ningtao Liu, **Yu Sha**, Changzhe Jiao, Dong Hai, Shasha Mao, Jiaxin Cheng (*Invention Patent* | CN111887858B)  
-</div>
+1. **Heart rate estimation method based on cross-modal mapping of heart impact map signals**  
+   Shuiping Gou, Yuanjie Liu, Ningtao Liu, **Yu Sha**, Changzhe Jiao, Dong Hai, Shasha Mao, Jiaxin Cheng  
+   *Invention Patent* | CN111887858B  
 
-<div class="paper-box-text" markdown="1">
-Hierarchical Cavitation Intensity Recognition Using Sub-Master Transition Network-based Acoustic Signals in Pipeline Systems. Shuiping Gou, **Yu Sha**, Zhang Guo, Bo Liu (*Invention Patent* | 202310945885.1)  
-</div>
+2. **Hierarchical Cavitation Intensity Recognition Using Sub-Master Transition Network-based Acoustic Signals in Pipeline Systems**  
+   Shuiping Gou, **Yu Sha**, Zhang Guo, Bo Liu  
+   *Invention Patent* | 202310945885.1  
 
-<div class="paper-box-text" markdown="1">
-Face Aging Method Based on Adversarial Learning of Local and Global Region Policies. Shuiping Gou, Ruichen Xue, Nuo Tong, Ruimin Li, **Yu Sha**, Ningtao Liu (*Invention Patent* | 202310941541.3)  
-</div>
- 
-<div class="paper-box-text" markdown="1">
-Physics-Guided Global Filtering Attention Convolutional Neural Networks for Image Classification. Zhang Guo, Huiyu Chen, Shuiping Gou, **Yu Sha**, Xinlin Wang, Bo Liu (*Invention Patent* | 202411474637.4)  
-</div>
+3. **Face Aging Method Based on Adversarial Learning of Local and Global Region Policies**  
+   Shuiping Gou, Ruichen Xue, Nuo Tong, Ruimin Li, **Yu Sha**, Ningtao Liu  
+   *Invention Patent* | 202310941541.3  
+
+4. **Physics-Guided Global Filtering Attention Convolutional Neural Networks for Image Classification**  
+   Zhang Guo, Huiyu Chen, Shuiping Gou, **Yu Sha**, Xinlin Wang, Bo Liu  
+   *Invention Patent* | 202411474637.4
 
 
 # 🧰 Projects
