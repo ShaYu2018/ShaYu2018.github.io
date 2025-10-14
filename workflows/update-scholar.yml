@@ -16,7 +16,7 @@ jobs:
       - run: pip install scholarly
       - run: python update_scholar.py
         env:
-          GOOGLE_SCHOLAR_ID: YOUR_SCHOLAR_ID  # 替换成你的ID
+          GOOGLE_SCHOLAR_ID: e5ng8m0AAAAJ&hl=zh-CN  # 替换成你的ID
       - run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
