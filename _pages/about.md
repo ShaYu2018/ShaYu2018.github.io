@@ -89,7 +89,7 @@ Hierarchical Cavitation Intensity Recognition Using Sub-Master Transition Networ
 
 Shuiping Gou, **Yu Sha<sup>*</sup>**, Bo Liu, Ningtao Liu, Johannes Faber, Stefan Schramm, Horst Stoecker, Thomas Steckenreiter, Domagoj Vnucec, Nadine Wetzstein, Andreas Widl, Kai Zhou
 
-**Expert Systems with Applications** | 2024 | **SCI: 1-Top**
+**Expert Systems with Applications** | **SCI: 1-Top** | [Paper](https://www.sciencedirect.com/science/article/pii/S0957417424020220?via%3Dihub)
 - The paper presents a two-stage hierarchical classification network
 - The paper proposes a hierarchical label tree.
 - The sound cavitation datasets provided by SAMSON AG.
@@ -121,7 +121,7 @@ A multi-task learning for cavitation detection and cavitation intensity recognit
 
 **Yu Sha**, Johannes Faber, Shuiping Gou, Bo Liu, Wei Li, Stefan Schramm, Horst Stoecker, Thomas Steckenreiter, Domagoj Vnucec, Nadine Wetzstein, Andreas Widl, Kai Zhou 
 
-**Engineering Applications of Artificial Intelligence** | 2022 | **SCI: 1-Top** | [Paper](https://dl.acm.org/doi/abs/10.1145/3534678.3539133) | [Code](https://github.com/CavitationDetection/GRLNet)
+**Engineering Applications of Artificial Intelligence** | **SCI: 1-Top** | [Paper](https://dl.acm.org/doi/abs/10.1145/3534678.3539133) | [Code](https://github.com/CavitationDetection/GRLNet)
 - The paper regards cavitation detection and cavitation intensity recognition as a multi-task learning.
 - The 1-D Double Hierarchical Residual Blocks with large kernel are proposed as an automatic feature extractor.
 - The sound cavitation datasets provided by SAMSON AG.
@@ -137,7 +137,7 @@ An acoustic signal cavitation detection framework based on XGBoost with adaptive
 
 **Yu Sha**, Johannes Faber, Shuiping Gou, Bo Liu, Wei Li, Stefan Schramm, Horst Stoecker, Thomas Steckenreiter, Domagoj Vnucec, Nadine Wetzstein, Andreas Widl, Kai Zhou  
 
-**Measurement** | 2022 | **SCI: 2-Top** | [Paper](https://www.sciencedirect.com/science/article/pii/S0263224122001798) | [Code](https://github.com/CavitationDetection/XGBoost_ASFE)
+**Measurement** | **SCI: 2-Top** | [Paper](https://www.sciencedirect.com/science/article/pii/S0263224122001798) | [Code](https://github.com/CavitationDetection/XGBoost_ASFE)
 - The paper proposes an adaptive feature aggregation module.
 - The paper presents an adaptive feature crosses module.
 - The sound cavitation datasets provided by SAMSON AG.
@@ -153,7 +153,7 @@ Dynamic Spatio-Temporal Pruning for Efficient Spiking Neural Networks
 
 Shuiping Gou, Jiahui Fu, **Yu Sha**, Zhen Cao, Zhang Guo, Jason K. Eshraghian, Ruimin Li, Licheng Jiao  
 
-**Frontiers in Neuroscience** | 2025 | **SCI: 2-Top** | [Paper](https://www.frontiersin.org/journals/neuroscience)
+**Frontiers in Neuroscience** | **SCI: 2-Top** | [Paper](https://www.frontiersin.org/journals/neuroscience)
 - A spatio-temporal pruning algorithm is proposed to reduce temporal redundancy.
 - Spatial pruning leverages global and inter-layer parameter statistics to minimize model degradation under extreme sparsity.
 </div>
@@ -169,7 +169,7 @@ Self-supervised, Non-Contact Heartbeat Detection Based on Ballistocardiograms ut
 
 Shuiping Gou, Jiahui Fu, **Yu Sha**, Zhen Cao, Zhang Guo, Jason K. Eshraghian, Ruimin Li, Licheng Jiao  
 
-**IEEE Journal of Biomedical and Health Informatics** | 2024 | **SCI: 1-Top** | [Paper](https://ieeexplore.ieee.org/document/10810416/authors#authors)
+**IEEE Journal of Biomedical and Health Informatics** | **SCI: 1-Top** | [Paper](https://ieeexplore.ieee.org/document/10810416/authors#authors)
 - A non-contact, self-supervised heart rate detection method based on physiological information.
 - Proposed a heartbeat mapping algorithm based on Bidirectional Long Short-Term Memory Network.
 </div>
@@ -184,7 +184,7 @@ Prioritization Hindsight Experience based on Spatial Position Attention for Robo
 
 Ye Yuan, **Yu Sha**, Feixiang Sun, Haofan Lu, Shuiping Gou, Jie Luo 
 
-**Machine Intelligence Research** | 2025 | **SCI: 2** | [Paper](https://link.springer.com/article/10.1007/s11633-023-1467-z)
+**Machine Intelligence Research** | **SCI: 2** | [Paper](https://link.springer.com/article/10.1007/s11633-023-1467-z)
 - Proposed a spatial position attention module for the existing HER framework.
 - Presented a theoretical analysis of the total spatial position distance of a manipulated object.
 - Conducted experiments on eight robotic manipulation tasks in the Fetch and Hand robot environments of OpenAI Gym.
@@ -200,7 +200,7 @@ Phase Retrieval for Terahertz Holography with Physics-Informed Deep Learning
 
 Mingjun Xiang, Lingxiao Wang, **Yu Sha**, Hui Yuan, Kai Zhou, Hartmut G Roskos
 
-**Digital Holography and Three-Dimensional Imaging** | 2022 | **EI** | [Paper](https://link.springer.com/journal/11633)
+**Digital Holography and Three-Dimensional Imaging** | **EI** | [Paper](https://link.springer.com/journal/11633)
 - Proposed two novel phase retrieval methods for THz holography.
 - Employed unsupervised learning and supervised learning based on the MNIST dataset.
 </div>
@@ -215,7 +215,7 @@ A study on small magnitude seismic phase identification using 1D deep residual n
 
 Wei Li, Megha Chakraborty, **Yu Sha**, Kai Zhou, Johannes Faber, Georg Rümpker, Horst Stöcker, Nishtha Srivastava
 
-**Artificial Intelligence in Geosciences** | 2022 | **SCI: 2** | [Paper](https://www.sciencedirect.com/science/article/pii/S2666544122000284) | [Code](https://github.com/srivastavaresearchgroup/Seismic-phase-Classification)
+**Artificial Intelligence in Geosciences** | **SCI: 2** | [Paper](https://www.sciencedirect.com/science/article/pii/S2666544122000284) | [Code](https://github.com/srivastavaresearchgroup/Seismic-phase-Classification)
 - Developed a 1D deep Residual Neural Network to tackle the problem of seismic signal detection and phase identification.
 - Trained and tested the method on the dataset recorded by the Southern California Seismic Network.
 - Evaluated the model generalizability further on the Stanford Earthquake Dataset.
