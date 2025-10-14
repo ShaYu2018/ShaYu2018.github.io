@@ -185,42 +185,42 @@ Study on operation analysis and decision making for sharing-bicycles. Hong Zhang
 </div>
 
 ### Patents:
-1. **Heart rate estimation method based on cross-modal mapping of heart impact map signals**  
+1. Heart rate estimation method based on cross-modal mapping of heart impact map signals  
    Shuiping Gou, Yuanjie Liu, Ningtao Liu, **Yu Sha**, Changzhe Jiao, Dong Hai, Shasha Mao, Jiaxin Cheng  
    *Invention Patent* | CN111887858B  
 
-2. **Hierarchical Cavitation Intensity Recognition Using Sub-Master Transition Network-based Acoustic Signals in Pipeline Systems**  
+2. Hierarchical Cavitation Intensity Recognition Using Sub-Master Transition Network-based Acoustic Signals in Pipeline Systems 
    Shuiping Gou, **Yu Sha**, Zhang Guo, Bo Liu  
    *Invention Patent* | 202310945885.1  
 
-3. **Face Aging Method Based on Adversarial Learning of Local and Global Region Policies**  
+3. Face Aging Method Based on Adversarial Learning of Local and Global Region Policies  
    Shuiping Gou, Ruichen Xue, Nuo Tong, Ruimin Li, **Yu Sha**, Ningtao Liu  
    *Invention Patent* | 202310941541.3  
 
-4. **Physics-Guided Global Filtering Attention Convolutional Neural Networks for Image Classification**  
+4. Physics-Guided Global Filtering Attention Convolutional Neural Networks for Image Classification  
    Zhang Guo, Huiyu Chen, Shuiping Gou, **Yu Sha**, Xinlin Wang, Bo Liu  
    *Invention Patent* | 202411474637.4
 
 
 # 🧰 Projects
 ### Xidian University (XDU)
-1. **Analysis of battlefield situation of artificial intelligence in the context of big data**  
+1. Analysis of battlefield situation of artificial intelligence in the context of big data* 
    *The 20th Research Institute of China Electronics Technology Group Corporation-Xidian Joint Laboratory for Artificial Intelligence* | **Completed** | **Project Participant**
-2. **Knee intensity recognition for smart wearable devices based on machine learning**  
+2. Knee intensity recognition for smart wearable devices based on machine learning  
    *Xijing Hospital* | **Completed** | **Project Participant**
 
 ### Frankfurt Institute for Advanced Studies (FIAS)
-1. **Cavitation and leakage detection in large pump/pipe using AI method**  
+1. Cavitation and leakage detection in large pump/pipe using AI method  
    *SAMSON AG* | **Completed** | **Project Participant**
 
 ### Lanzhou University of Technology (LUT)
-1. **LoRa based non-contact life detection system**  
+1. LoRa based non-contact life detection system  
    *National Undergraduate Innovation and Entrepreneurship Training Project* | **Completed** | **Project Participant**
-2. **Evaluation of students' comprehensive ability and program design based on fuzzy theory**  
+2. Evaluation of students' comprehensive ability and program design based on fuzzy theory  
    *LUT Innovation and Entrepreneurship Training Program* | **Completed** | **Project Leader**
-3. **Research on the cultivation of college students' creative ability by mathematical modeling competition**  
+3. Research on the cultivation of college students' creative ability by mathematical modeling competition  
    *LUT Technology Innovation Fund* | **Completed** | **Project Participant**
-4. **WeChat program design for second-hand transaction and donation platform on campus**  
+4. WeChat program design for second-hand transaction and donation platform on campus 
    *LUT Technology Innovation Fund* | **Completed** | **Project Participant**
 
 
