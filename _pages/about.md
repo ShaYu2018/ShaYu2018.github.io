@@ -199,10 +199,10 @@ Wei Li, Megha Chakraborty, **Yu Sha**, Kai Zhou, Johannes Faber, Georg Rümpker,
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     const papers = document.querySelectorAll(".paper-box-text[markdown='1']"); 
-    let num = 1; // 从1开始
+    let num = 1; // 从 1 开始
     papers.forEach(paper => {
-        // 在整个内容前面加编号
-        paper.innerHTML = `<strong>${num}.</strong> ` + paper.innerHTML;
+        // 在内容前面加“数字加点”编号
+        paper.innerHTML = `${num}. ` + paper.innerHTML;
         num++;
     });
 });
