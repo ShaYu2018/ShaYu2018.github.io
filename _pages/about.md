@@ -65,7 +65,7 @@ My research interests include AI for Industry/Science (especially AI for acousti
 
 
 # 📚 Publications
-### Papers
+### Papers:
 <!-- 1 -->
 <div class='paper-box'><div class='paper-box-image'><div> <div class="badge">KDD 2024 (Oral&Poster)</div><img src='images/KDD2024.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -183,6 +183,15 @@ Smart home system based on STC89C52. Liang Qin, **Yu Sha**, Yumeng Xu (*Practica
 <div class="paper-box-text" markdown="1">
 Study on operation analysis and decision making for sharing-bicycles. Hong Zhang, Dixin Zhou, Chuanqi Cheng, **Yu Sha** (*Big Data Research* | 2019 | [Paper](http://www.infocomm-journal.com/bdr/CN/Y2019/V5/I1/87))
 </div>
+
+### Patents:
+<div class="paper-box-text" markdown="1">
+Heart rate estimation method based on cross-modal mapping of heart impact map signals.
+Shuiping Gou, Yuanjie Liu, Ningtao Liu, **Yu Sha**, Changzhe Jiao, Dong Hai, Shasha Mao, Jiaxin Cheng  
+*Invention Patent* | CN111887858B
+</div>
+
+ 
 
 
 
