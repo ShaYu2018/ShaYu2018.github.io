@@ -196,3 +196,22 @@ Wei Li, Megha Chakraborty, **Yu Sha**, Kai Zhou, Johannes Faber, Georg Rümpker,
 </div>
 
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // 找到所有论文标题所在的 markdown 元素
+    const paperTitles = document.querySelectorAll(".paper-box-text > markdown, .paper-box-text[markdown='1']");
+
+    // 倒序编号
+    let count = paperTitles.length;
+    paperTitles.forEach(function(titleBox) {
+        const lines = titleBox.innerHTML.trim().split("\n");
+        if (lines[0].trim() !== "") {
+            // 在第一行标题前加编号
+            lines[0] = `**[${count}]** ` + lines[0].trim();
+            count--;
+            // 更新 HTML
+            titleBox.innerHTML = lines.join("\n");
+        }
+    });
+});
+</script>
