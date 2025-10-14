@@ -118,7 +118,7 @@ A multi-task learning for cavitation detection and cavitation intensity recognit
 
 
 <!-- 5 -->
-<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">Measurement 2022</div><img src='images/Measurement2022.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">Measurement 2022</div><img src='images/Measurement2022-2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 An acoustic signal cavitation detection framework based on XGBoost with adaptive selection feature engineering
