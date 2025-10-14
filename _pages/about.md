@@ -187,7 +187,9 @@ Study on operation analysis and decision making for sharing-bicycles. Hong Zhang
 ### Patents:
 <div class="paper-box-text" markdown="1">
 Heart rate estimation method based on cross-modal mapping of heart impact map signals.
+  
 Shuiping Gou, Yuanjie Liu, Ningtao Liu, **Yu Sha**, Changzhe Jiao, Dong Hai, Shasha Mao, Jiaxin Cheng  
+
 *Invention Patent* | CN111887858B
 </div>
 
