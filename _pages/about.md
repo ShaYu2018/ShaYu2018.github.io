@@ -198,16 +198,15 @@ Wei Li, Megha Chakraborty, **Yu Sha**, Kai Zhou, Johannes Faber, Georg Rümpker,
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    const papers = document.querySelectorAll(".paper-box-text"); 
+    const papers = document.querySelectorAll(".paper-box-text[markdown='1']"); 
     let count = papers.length;
 
     papers.forEach(paper => {
-        // 找到第一个段落或者标题标签
-        const firstChild = paper.querySelector("p, strong, b, h3, h4");
-        if (firstChild && firstChild.textContent.trim() !== "") {
-            firstChild.textContent = `[${count}] ` + firstChild.textContent.trim();
-            count--;
-        }
+        // 在整个paper盒子前面插入编号
+        const wrapper = document.createElement("div");
+        wrapper.innerHTML = `<strong>[${count}]</strong> ` + paper.innerHTML;
+        paper.innerHTML = wrapper.innerHTML;
+        count--;
     });
 });
 </script>
