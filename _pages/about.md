@@ -79,7 +79,7 @@ Hierarchical Knowledge Guided Fault Intensity Diagnosis of Complex Industrial Sy
 
 
 <!-- 2 -->
-<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">ESWA 2024</div><img src='images/ESWA2024.png' alt="sym" width="300" height="240"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div> <div class="badge">ESWA 2024</div><img src='images/ESWA2024.png' alt="sym" width="300" height="200"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Hierarchical Cavitation Intensity Recognition Using Sub-Master Transition Network-based Acoustic Signals in Pipeline Systems
