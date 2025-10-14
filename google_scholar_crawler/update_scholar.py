@@ -3,9 +3,8 @@ import json
 from datetime import datetime
 import os
 
-# 读取你的 Google Scholar ID（例如 https://scholar.google.com.hk/citations?user=e5ng8m0AAAAJ → e5ng8m0AAAAJ）
+# 从环境变量获取 Google Scholar ID
 SCHOLAR_ID = os.environ.get('GOOGLE_SCHOLAR_ID', '').strip()
-
 if not SCHOLAR_ID:
     raise ValueError("GOOGLE_SCHOLAR_ID 环境变量未设置")
 
@@ -14,10 +13,6 @@ print(f"Fetching Google Scholar data for ID: {SCHOLAR_ID}")
 # 获取作者数据
 author = scholarly.search_author_id(SCHOLAR_ID)
 scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
-
-# 添加更新时间
-author['updated'] = str(datetime.utcnow())
-author['publications'] = {v['author_pub_id']: v for v in author['publications']}
 
 # 保存完整数据
 os.makedirs('results', exist_ok=True)
