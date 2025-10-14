@@ -25,7 +25,7 @@ jobs:
 
       - name: Run update_scholar.py
         env:
-          GOOGLE_SCHOLAR_ID: YOUR_SCHOLAR_ID  # 替换为你的 Google Scholar ID
+          GOOGLE_SCHOLAR_ID: e5ng8m0AAAAJ&hl=zh-CN  # 替换为你的 Google Scholar ID
         run: python update_scholar.py
 
       - name: Commit and push results
