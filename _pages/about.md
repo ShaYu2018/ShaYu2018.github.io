@@ -198,12 +198,19 @@ Wei Li, Megha Chakraborty, **Yu Sha**, Kai Zhou, Johannes Faber, Georg Rümpker,
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    const papers = document.querySelectorAll(".paper-box-text[markdown='1']"); 
-    let num = 1; // 从 1 开始
+    const papers = document.querySelectorAll(".paper-box-text"); 
+    let num = 1; // 从1开始
     papers.forEach(paper => {
-        // 在内容前面加“数字加点”编号
-        paper.innerHTML = `${num}. ` + paper.innerHTML;
-        num++;
+        // 在第一个子元素前插入序号（数字和一个点）
+        const firstChild = paper.firstElementChild;
+        if (firstChild) {
+            // 创建一个 span 来显示编号
+            const numSpan = document.createElement("span");
+            numSpan.textContent = num + ". ";
+            numSpan.style.fontWeight = "bold";
+            firstChild.insertAdjacentElement("afterbegin", numSpan);
+            num++;
+        }
     });
 });
 </script>
