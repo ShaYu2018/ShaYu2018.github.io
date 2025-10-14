@@ -1,3 +1,21 @@
+---
+permalink: /
+title: ""
+excerpt: ""
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% else %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+
+
 <p style="text-align: justify;">
 <span class='anchor' id='about-me'></span>
 I am Yu Sha (🦈沙毓🦈), now a Postdoctoral Researcher / Assistant Researcher at <a style="color: #447ec9;" href="https://www.cuhk.edu.cn/zh-hans">The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)</a>. During 2019 to 2025, I was a PhD student at <a style="color: #447ec9;" href="https://www.xidian.edu.cn/">Xidian University</a>, co-advised by Prof. <a style="color: #447ec9;" href="https://web.xidian.edu.cn/liubo/index.html">Bo Liu</a> and Prof. <a style="color: #447ec9;" href="https://faculty.xidian.edu.cn/GSP2/zh_CN/index/335507/list/index.htm">Shuiping Gou</a>. During 2020 to 2022, I was a visiting scientist in <a style="color: #447ec9;" href="https://www.fias.science/en/theoretical-sciences/research-groups/kai-zhou/">"Deepthinkers"</a> group at <a style="color: #447ec9;" href="https://fias.institute/en/">Frankfurt Institute for Advanced Studies (FIAS)</a>, co-advised by Prof. <a style="color: #447ec9;" href="https://www.fias.science/en/fellows/detail/stoecker-horst/">Horst Stöcker</a> and Prof. <a style="color: #447ec9;" href="https://www.fias.science/en/fellows/detail/zhou-kai/">Kai Zhou</a>. In addition, during 2020 to 2025, I am a member of Xidian-FIAS Joint Research Center (XFJRC) and Giersch Science Center (GSC). Before that, I received the B.Sc degree from <a style="color: #447ec9;" href="https://www.lut.edu.cn/">Lanzhou University of Technology</a> in 2019.
