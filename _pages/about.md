@@ -204,7 +204,7 @@ Study on operation analysis and decision making for sharing-bicycles. Hong Zhang
 
 # 🧰 Projects
 ### Xidian University (XDU)
-1. Analysis of battlefield situation of artificial intelligence in the context of big data* 
+1. Analysis of battlefield situation of artificial intelligence in the context of big data
    *The 20th Research Institute of China Electronics Technology Group Corporation-Xidian Joint Laboratory for Artificial Intelligence* | **Completed** | **Project Participant**
 2. Knee intensity recognition for smart wearable devices based on machine learning  
    *Xijing Hospital* | **Completed** | **Project Participant**
