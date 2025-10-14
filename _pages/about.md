@@ -254,7 +254,7 @@ Study on operation analysis and decision making for sharing-bicycles. Hong Zhang
 
 
 
-{% include custom-foot.html %}
+
 
 
 
