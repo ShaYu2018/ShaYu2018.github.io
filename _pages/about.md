@@ -51,11 +51,11 @@ My research interests include AI for Industry/Science (especially AI for acousti
 - **Physics knowledge-guided deep learning** [<a style="color: #447ec9" href="https://dl.acm.org/doi/abs/10.1145/3637528.3671610">5</a>, <a style="color: #447ec9" href="https://www.sciencedirect.com/science/article/abs/pii/S0957417424020220">6</a>].
 
 # 💼 Experiences
-- *08/2025 – present* — **Postdoctoral Researcher**  The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), China.
-- *09/2020 – 06/2025* — **PhD Visiting Student**  Xidian-FIAS Joint Research Center (XFJRC), Germany.
-- *09/2020 – 06/2025* — **PhD Visiting Student**  Giersch Science Center (GSC), Germany.
-- *09/2020 – 10/2022* — **PhD Visiting Student**  Frankfurt Institute for Advanced Studies (FIAS), Germany.
-- *09/2019 – 06/2025* — **PhD Student**  School of Artificial Intelligence, Xidian University (XDU), China.
+- *08/2025 – present*, &nbsp; **Postdoctoral Researcher**, &nbsp; The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), China.
+- *09/2020 – 06/2025*, &nbsp; **PhD Visiting Student**, &nbsp; Xidian-FIAS Joint Research Center (XFJRC), Germany.
+- *09/2020 – 06/2025*, &nbsp;**PhD Visiting Student**, &nbsp; Giersch Science Center (GSC), Germany.
+- *09/2020 – 10/2022*, &nbsp; **PhD Visiting Student**, &nbsp; Frankfurt Institute for Advanced Studies (FIAS), Germany.
+- *09/2019 – 06/2025*, &nbsp; **PhD Student**, &nbsp; School of Artificial Intelligence, Xidian University (XDU), China.
 
 
 
