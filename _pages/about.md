@@ -69,11 +69,11 @@ My research interests include AI for Industry/Science (especially AI for acousti
 <div class='paper-box'><div class='paper-box-image'><div> <div class="badge">KDD 2024 (Oral&Poster)</div><img src='images/KDD2024.png' alt="sym" width="300" height="270"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Hierarchical Knowledge Guided Fault Intensity Diagnosis of Complex Industrial Systems](https://doi.org/10.1145/3637528.3671610)
+Hierarchical Knowledge Guided Fault Intensity Diagnosis of Complex Industrial Systems
 
 **Yu Sha**, Shuiping Gou, Bo Liu, Ningtao Liu, Johannes Faber, Stefan Schramm, Horst Stoecker, Thomas Steckenreiter, Domagoj Vnucec, Nadine Wetzstein, Andreas Widl, Kai Zhou 
 
-**SIGKDD 2024** | **CCF: A** | [Code](https://github.com/CavitationDetection/HKG)
+**SIGKDD 2024** | **CCF: A** | [Paper](https://doi.org/10.1145/3637528.3671610) | [Code](https://github.com/CavitationDetection/HKG)
 - The paper explores hierarchical Knowledge of labels with GCN.
 - The paper presents the Hierarchical Knowledge Correlation Matrix.
 - The sound cavitation datasets provided by SAMSON AG.
@@ -85,9 +85,11 @@ My research interests include AI for Industry/Science (especially AI for acousti
 <div class='paper-box'><div class='paper-box-image'><div> <div class="badge">ESWA 2024</div><img src='images/ESWA2024.png' alt="sym" width="300" height="270"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Hierarchical Cavitation Intensity Recognition Using Sub-Master Transition Network-based Acoustic Signals in Pipeline Systems](https://www.sciencedirect.com/science/article/pii/S0957417424020220?via%3Dihub)
+Hierarchical Cavitation Intensity Recognition Using Sub-Master Transition Network-based Acoustic Signals in Pipeline Systems
 
 Shuiping Gou, **Yu Sha<sup>*</sup>**, Bo Liu, Ningtao Liu, Johannes Faber, Stefan Schramm, Horst Stoecker, Thomas Steckenreiter, Domagoj Vnucec, Nadine Wetzstein, Andreas Widl, Kai Zhou
+
+**Expert Systems with Applications** | 2024 | **SCI: 1-Top**
 - The paper presents a two-stage hierarchical classification network
 - The paper proposes a hierarchical label tree.
 - The sound cavitation datasets provided by SAMSON AG.
@@ -99,9 +101,11 @@ Shuiping Gou, **Yu Sha<sup>*</sup>**, Bo Liu, Ningtao Liu, Johannes Faber, Stefa
 <div class='paper-box'><div class='paper-box-image'><div> <div class="badge">KDD 2022 (Poster)</div><img src='images/KDD2022.png' alt="sym" width="300" height="270"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Regional-Local Adversarially Learned One-Class Classifier Anomalous Sound Detection in Global Long-Term Space](https://dl.acm.org/doi/abs/10.1145/3534678.3539133)
+Regional-Local Adversarially Learned One-Class Classifier Anomalous Sound Detection in Global Long-Term Space
 
 **Yu Sha**, Shuiping Gou, Johannes Faber, Bo Liu, Wei Li, Stefan Schramm, Horst Stoecker, Thomas Steckenreiter, Domagoj Vnucec, Nadine Wetzstein, Andreas Widl, Kai Zhou 
+
+**SIGKDD 2022** | **CCF: A** | [Paper](https://dl.acm.org/doi/abs/10.1145/3534678.3539133) | [Code](https://github.com/CavitationDetection/GRLNet)
 - The paper proposes a global filter layer based on a 1D FFT global filter for long-term interactions.
 - The paper extends the capability of discriminating real against fake signals to differentiating between local and regional reconstructions.
 - The paper designs a novel balanceable detection strategy.
@@ -113,9 +117,11 @@ Shuiping Gou, **Yu Sha<sup>*</sup>**, Bo Liu, Ningtao Liu, Johannes Faber, Stefa
 <div class='paper-box'><div class='paper-box-image'><div> <div class="badge">EAAI 2022</div><img src='images/EAAI2022.png' alt="sym" width="300" height="270"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[A multi-task learning for cavitation detection and cavitation intensity recognition of valve acoustic signals](https://dl.acm.org/doi/abs/10.1145/3534678.3539133)
+A multi-task learning for cavitation detection and cavitation intensity recognition of valve acoustic signals
 
-**Yu Sha**, Johannes Faber, Shuiping Gou, Bo Liu, Wei Li, Stefan Schramm, Horst Stoecker, Thomas Steckenreiter, Domagoj Vnucec, Nadine Wetzstein, Andreas Widl, Kai Zhou  
+**Yu Sha**, Johannes Faber, Shuiping Gou, Bo Liu, Wei Li, Stefan Schramm, Horst Stoecker, Thomas Steckenreiter, Domagoj Vnucec, Nadine Wetzstein, Andreas Widl, Kai Zhou 
+
+**Engineering Applications of Artificial Intelligence** | 2022 | **SCI: 1-Top** | [Paper](https://dl.acm.org/doi/abs/10.1145/3534678.3539133) | [Code](https://github.com/CavitationDetection/GRLNet)
 - The paper regards cavitation detection and cavitation intensity recognition as a multi-task learning.
 - The 1-D Double Hierarchical Residual Blocks with large kernel are proposed as an automatic feature extractor.
 - The sound cavitation datasets provided by SAMSON AG.
@@ -127,9 +133,11 @@ Shuiping Gou, **Yu Sha<sup>*</sup>**, Bo Liu, Ningtao Liu, Johannes Faber, Stefa
 <div class='paper-box'><div class='paper-box-image'><div> <div class="badge">Measurement 2022</div><img src='images/Measurement2022.png' alt="sym" width="300" height="270"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[An acoustic signal cavitation detection framework based on XGBoost with adaptive selection feature engineering](https://www.sciencedirect.com/science/article/pii/S0263224122001798)
+An acoustic signal cavitation detection framework based on XGBoost with adaptive selection feature engineering
 
 **Yu Sha**, Johannes Faber, Shuiping Gou, Bo Liu, Wei Li, Stefan Schramm, Horst Stoecker, Thomas Steckenreiter, Domagoj Vnucec, Nadine Wetzstein, Andreas Widl, Kai Zhou  
+
+**Measurement** | 2022 | **SCI: 2-Top** | [Paper](https://www.sciencedirect.com/science/article/pii/S0263224122001798) | [Code](https://github.com/CavitationDetection/XGBoost_ASFE)
 - The paper proposes an adaptive feature aggregation module.
 - The paper presents an adaptive feature crosses module.
 - The sound cavitation datasets provided by SAMSON AG.
@@ -141,9 +149,11 @@ Shuiping Gou, **Yu Sha<sup>*</sup>**, Bo Liu, Ningtao Liu, Johannes Faber, Stefa
 <div class='paper-box'><div class='paper-box-image'><div> <div class="badge">Front. Neurosci. 2025</div><img src='images/FontNeusc.png' alt="sym" width="300" height="270"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Dynamic Spatio-Temporal Pruning for Efficient Spiking Neural Networks](https://www.frontiersin.org/journals/neuroscience)
+Dynamic Spatio-Temporal Pruning for Efficient Spiking Neural Networks
 
 Shuiping Gou, Jiahui Fu, **Yu Sha**, Zhen Cao, Zhang Guo, Jason K. Eshraghian, Ruimin Li, Licheng Jiao  
+
+**Frontiers in Neuroscience** | 2025 | **SCI: 2-Top** | [Paper](https://www.frontiersin.org/journals/neuroscience)
 - A spatio-temporal pruning algorithm is proposed to reduce temporal redundancy.
 - Spatial pruning leverages global and inter-layer parameter statistics to minimize model degradation under extreme sparsity.
 </div>
@@ -155,9 +165,11 @@ Shuiping Gou, Jiahui Fu, **Yu Sha**, Zhen Cao, Zhang Guo, Jason K. Eshraghian, R
 <div class='paper-box'><div class='paper-box-image'><div> <div class="badge">JBHI 2024</div><img src='images/JBHI2024.png' alt="sym" width="300" height="270"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Self-supervised, Non-Contact Heartbeat Detection Based on Ballistocardiograms utilizing Physiological Information Guidance](https://ieeexplore.ieee.org/document/10810416/authors#authors)
+Self-supervised, Non-Contact Heartbeat Detection Based on Ballistocardiograms utilizing Physiological Information Guidance
 
 Shuiping Gou, Jiahui Fu, **Yu Sha**, Zhen Cao, Zhang Guo, Jason K. Eshraghian, Ruimin Li, Licheng Jiao  
+
+**IEEE Journal of Biomedical and Health Informatics** | 2024 | **SCI: 1-Top** | [Paper](https://ieeexplore.ieee.org/document/10810416/authors#authors)
 - A non-contact, self-supervised heart rate detection method based on physiological information.
 - Proposed a heartbeat mapping algorithm based on Bidirectional Long Short-Term Memory Network.
 </div>
@@ -168,9 +180,11 @@ Shuiping Gou, Jiahui Fu, **Yu Sha**, Zhen Cao, Zhang Guo, Jason K. Eshraghian, R
 <div class='paper-box'><div class='paper-box-image'><div> <div class="badge">MIR 2025</div><img src='images/MIR2023.png' alt="sym" width="300" height="270"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Prioritization Hindsight Experience based on Spatial Position Attention for Robots](https://link.springer.com/article/10.1007/s11633-023-1467-z)
+Prioritization Hindsight Experience based on Spatial Position Attention for Robots
 
 Ye Yuan, **Yu Sha**, Feixiang Sun, Haofan Lu, Shuiping Gou, Jie Luo 
+
+**Machine Intelligence Research** | 2025 | **SCI: 2** | [Paper](https://link.springer.com/article/10.1007/s11633-023-1467-z)
 - Proposed a spatial position attention module for the existing HER framework.
 - Presented a theoretical analysis of the total spatial position distance of a manipulated object.
 - Conducted experiments on eight robotic manipulation tasks in the Fetch and Hand robot environments of OpenAI Gym.
@@ -182,9 +196,11 @@ Ye Yuan, **Yu Sha**, Feixiang Sun, Haofan Lu, Shuiping Gou, Jie Luo
 <div class='paper-box'><div class='paper-box-image'><div> <div class="badge">DH3D 2022</div><img src='images/DH3D2022.png' alt="sym" width="300" height="270"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Phase Retrieval for Terahertz Holography with Physics-Informed Deep Learning](https://link.springer.com/journal/11633)
+Phase Retrieval for Terahertz Holography with Physics-Informed Deep Learning
 
 Mingjun Xiang, Lingxiao Wang, **Yu Sha**, Hui Yuan, Kai Zhou, Hartmut G Roskos
+
+**Digital Holography and Three-Dimensional Imaging** | 2022 | **EI** | [Paper](https://link.springer.com/journal/11633)
 - Proposed two novel phase retrieval methods for THz holography.
 - Employed unsupervised learning and supervised learning based on the MNIST dataset.
 </div>
@@ -195,9 +211,11 @@ Mingjun Xiang, Lingxiao Wang, **Yu Sha**, Hui Yuan, Kai Zhou, Hartmut G Roskos
 <div class='paper-box'><div class='paper-box-image'><div> <div class="badge">AIIG 2022</div><img src='images/AIIG2022.png' alt="sym" width="300" height="270"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[A study on small magnitude seismic phase identification using 1D deep residual neural network](https://www.sciencedirect.com/science/article/pii/S2666544122000284)
+A study on small magnitude seismic phase identification using 1D deep residual neural network
 
 Wei Li, Megha Chakraborty, **Yu Sha**, Kai Zhou, Johannes Faber, Georg Rümpker, Horst Stöcker, Nishtha Srivastava
+
+**Artificial Intelligence in Geosciences** | 2022 | **SCI: 2** | [Paper](https://www.sciencedirect.com/science/article/pii/S2666544122000284) | [Code](https://github.com/srivastavaresearchgroup/Seismic-phase-Classification)
 - Developed a 1D deep Residual Neural Network to tackle the problem of seismic signal detection and phase identification.
 - Trained and tested the method on the dataset recorded by the Southern California Seismic Network.
 - Evaluated the model generalizability further on the Stanford Earthquake Dataset.
@@ -207,19 +225,26 @@ Wei Li, Megha Chakraborty, **Yu Sha**, Kai Zhou, Johannes Faber, Georg Rümpker,
 
 
 <!-- 11 -->
-[Deep Learning-based Small Magnitude Earthquake Detection and Seismic Phase Classification](https://arxiv.org/pdf/2204.02870.pdf), Wei Li, **Yu Sha**, Kai Zhou, Johannes Faber, Georg Rümpker, Horst Stöcker, Nishtha Srivastava
+Deep Learning-based Small Magnitude Earthquake Detection and Seismic Phase Classification 
 
+Wei Li, **Yu Sha**, Kai Zhou, Johannes Faber, Georg Rümpker, Horst Stöcker, Nishtha Srivastava
+
+*arXiv* 2204.02870 | [Paper](https://arxiv.org/pdf/2204.02870.pdf) | [Code](https://github.com/srivastavaresearchgroup/Seismic-phase-Classification)
 
 
 <!-- 12 -->
-[Smart home system based on STC89C52](http://www.cqvip.com/qk/97913x/201803/674492691.html), Liang Qin, **Yu Sha**, Yumeng Xu
+Smart home system based on STC89C52
 
+Liang Qin, **Yu Sha**, Yumeng Xu
 
+*Practical Electronics* | 2018 | [Paper](http://www.cqvip.com/qk/97913x/201803/674492691.html)
 
 <!-- 13 -->
-[Study on operation analysis and decision making for sharing-bicycles](http://www.infocomm-journal.com/bdr/CN/Y2019/V5/I1/87), Hong Zhang, Dixin Zhou, Chuanqi Cheng, **Yu Sha** 
+Study on operation analysis and decision making for sharing-bicycles
 
+Hong Zhang, Dixin Zhou, Chuanqi Cheng, **Yu Sha** 
 
+*Big Data Research* | 2019 | [Paper](http://www.infocomm-journal.com/bdr/CN/Y2019/V5/I1/87)
 
 
 
