@@ -43,6 +43,24 @@ My research interests include AI for Industry/Science (especially AI for acousti
 - *30/09/2020*: &nbsp;📢📢 I went to <a style="color: #447ec9" href="https://fias.institute/en/">Frankfurt Institute for Advanced Studies (FIAS)</a> as a PhD visiting student.
 - *10/09/2019*: &nbsp;📢📢 I was admitted to <a style="color: #447ec9" href="https://www.xidian.edu.cn/">Xidian University (XDU)</a> as a Fast-Track PhD student.
 
+# 🔍 Researches
+
+### AI in Industry
+- **Supervised learning for acoustic damage detection and diagnosis**  
+  1. [DOI:10.1016/j.eswa.2024.xx](https://www.sciencedirect.com/science/article/pii/S0957417424020220)  
+  2. [DOI:10.1016/j.engappai.2022.xx](https://www.sciencedirect.com/science/article/pii/S0952197622001361)  
+  3. [DOI:10.1145/3637528.3671610](https://dl.acm.org/doi/abs/10.1145/3637528.3671610)
+
+- **Unsupervised learning for acoustic signal anomalous sound detection**  
+  4. [DOI:10.1145/3534678.3539133](https://dl.acm.org/doi/abs/10.1145/3534678.3539133)
+
+### Knowledge Guided AI
+- **Physics knowledge-guided deep learning**  
+  5. [DOI:10.1145/3637528.3671610](https://dl.acm.org/doi/abs/10.1145/3637528.3671610)  
+  6. [DOI:10.1016/j.eswa.2024.xx](https://www.sciencedirect.com/science/article/abs/pii/S0957417424020220)
+
+
+
 
 # 📝 Publications 
 
