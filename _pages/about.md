@@ -24,6 +24,10 @@ co-advised by Prof. <a style="color: #447ec9;" href="https://www.fias.science/en
 
 <p> 
 My research interests include AI for Industry/Science (especially AI for acoustic damage detection and diagnosis) and Physics-Informed Machine Learning / Deep Learning. I have published 11+ papers <a href="https://scholar.google.com.hk/citations?user=e5ng8m0AAAAJ&hl=zh-CN"></a> in top international journals and conferences, such as SIGKDD, EAAI, ESWA.
+
+<a href="https://scholar.google.com.hk/citations?user=e5ng8m0AAAAJ"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FRayeRen%2Frayeren.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+
+  
 </p>
 
 
