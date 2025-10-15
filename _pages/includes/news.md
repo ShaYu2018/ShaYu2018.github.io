@@ -1,1 +1,15 @@
-
+# 🔥 News
+- *01/08/2025*: &nbsp;📢📢 I joined  <a style="color: #447ec9" href="https://www.cuhk.edu.cn/zh-hans">The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)</a> as a Postdoctoral Researcher.
+- *17/06/2025*: &nbsp;📢📢 I obtained PhD degree from <a style="color: #447ec9" href="https://www.xidian.edu.cn/">Xidian University (XDU)</a>.
+- *03/03/2025*: &nbsp;🎉🎉 one paper has been accepted by <a style="color: #447ec9" href="https://www.frontiersin.org/journals/neuroscience">Frontiers in Neuroscience</a>.
+- *29/11/2024*: &nbsp;🎉🎉 one paper has been accepted by <a style="color: #447ec9" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221020">IEEE Journal of Biomedical and Health Informatics (JBHI)</a>.
+- *19/08/2024*: &nbsp;🎉🎉 one paper has been accepted by <a style="color: #447ec9" href="https://www.sciencedirect.com/journal/expert-systems-with-applications">Expert Systems with Applications (ESWA)</a>.
+- *17/05/2024*: &nbsp;🎉🎉 one paper has been accepted by <a style="color: #447ec9" href="https://kdd2024.kdd.org/">ACM SIGKDD 2024 (CCF-A)</a>.
+- *16/08/2023*: &nbsp;🎉🎉 one paper has been accepted by <a style="color: #447ec9" href="https://link.springer.com/journal/11633">Machine Intelligence Research</a>.
+- *01/12/2022*: &nbsp;🎉🎉 one paper has been accepted by <a style="color: #447ec9" href="https://www.sciencedirect.com/journal/artificial-intelligence-in-geosciences">Artificial Intelligence in Geosciences (AIG)</a>.
+- *30/09/2022*: &nbsp;📢📢 I came back to <a style="color: #447ec9" href="https://www.xidian.edu.cn/">Xidian University (XDU)</a> as a PhD visiting student.
+- *01/08/2022*: &nbsp;🎉🎉 one paper has been accepted by <a style="color: #447ec9" href="https://opg.optica.org/conference.cfm?meetingid=63&yr=2022">Digital Holography and Three-Dimensional Imaging 2022</a>.
+- *19/05/2022*: &nbsp;🎉🎉 one paper has been accepted by <a style="color: #447ec9" href="https://kdd.org/kdd2022/">ACM SIGKDD 2022 (CCF-A)</a>.
+- *19/04/2022*: &nbsp;🎉🎉 one paper has been accepted by <a style="color: #447ec9" href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence">Engineering Applications of Artificial Intelligence (EAAI)</a>.
+- *30/09/2020*: &nbsp;📢📢 I went to <a style="color: #447ec9" href="https://fias.institute/en/">Frankfurt Institute for Advanced Studies (FIAS)</a> as a PhD visiting student.
+- *10/09/2019*: &nbsp;📢📢 I was admitted to <a style="color: #447ec9" href="https://www.xidian.edu.cn/">Xidian University (XDU)</a> as a Fast-Track PhD student.
