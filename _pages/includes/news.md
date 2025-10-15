@@ -19,14 +19,3 @@
 </div>
 
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const newsContainer = document.querySelector(".news-scroll");
-  newsContainer.addEventListener("mouseenter", function() {
-    this.style.animationPlayState = "paused";
-  });
-  newsContainer.addEventListener("mouseleave", function() {
-    this.style.animationPlayState = "running";
-  });
-});
-</script>
