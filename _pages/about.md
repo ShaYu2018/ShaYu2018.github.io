@@ -50,32 +50,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const newsContainer = document.querySelector(".news-scroll");
-  const newsList = document.querySelector(".news-list");
-  const newsItems = document.querySelectorAll(".news-list li");
-  const itemHeight = newsItems[0].offsetHeight;
-  const totalHeight = newsItems.length * itemHeight;
 
-  // 设置初始位置
-  newsList.style.transform = "translateY(0)";
-
-  // 每 30 秒滚动一次（与 CSS 动画同步）
-  setInterval(() => {
-    const currentY = parseInt(newsList.style.transform.replace(/[^-\d.]/g, '')) || 0;
-    const newY = currentY - itemHeight;
-
-    // 如果滚动到第二份内容的开头，跳回第一份内容的开头
-    if (newY <= -totalHeight / 2) {
-      newsList.style.transition = "none";
-      newsList.style.transform = "translateY(0)";
-      setTimeout(() => {
-        newsList.style.transition = "transform 0.3s ease-out";
-      }, 10);
-    } else {
-      newsList.style.transform = `translateY(${newY}px)`;
-    }
-  }, 30000 / newsItems.length); // 每条新闻滚动时间
-});
-</script>
