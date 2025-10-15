@@ -45,11 +45,16 @@ My research interests include AI for Industry/Science (especially AI for acousti
 
 # 🔍 Researches
 ### AI in Industry
-- Supervised learning for acoustic damage detection and diagnosis [<a style="color: #447ec9" href="https://www.sciencedirect.com/science/article/pii/S0957417424020220">1</a>, <a style="color: #447ec9"  href="https://www.sciencedirect.com/science/article/pii/S0952197622001361">2</a>, <a style="color: #447ec9" href="https://dl.acm.org/doi/abs/10.1145/3637528.3671610">3</a>].
-- Unsupervised learning for acoustic signal anomalous sound detection [<a style="color: #447ec9" href="https://dl.acm.org/doi/abs/10.1145/3534678.3539133">4</a>].
+- Supervised learning for acoustic damage detection and diagnosis.
+- Unsupervised learning for acoustic signal anomalous sound detection.
+
+### AI for Science
+- Supervised / Unsupervised learning for medical images / signals.
 
 ### Phyeical Knowledge-Informed Machine Learning/Deep Learning
-- Physics knowledge-guided deep learning [<a style="color: #447ec9" href="https://dl.acm.org/doi/abs/10.1145/3637528.3671610">5</a>, <a style="color: #447ec9" href="https://www.sciencedirect.com/science/article/abs/pii/S0957417424020220">6</a>].
+- Physics knowledge-designed Network.
+- Physics knowledge-embedded Methods.
+- Physics knowlegde Constraint Losses.
 
 # 💼 Experiences
 - *08/2025 – present*, &nbsp; **Postdoctoral Researcher**, &nbsp; The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), China.
