@@ -254,7 +254,7 @@ Study on operation analysis and decision making for sharing-bicycles. Hong Zhang
 
 
 # 💬 Invited Talks
-
+- *27/08/2024*, &nbsp; Industrial / Manufacturing Applications, ACM SIGKDD2024.
 
 
 
