@@ -153,6 +153,6 @@ h1:before, .anchor:before {
       transform: translateY(0);
     }
     100% {
-      transform: translateY(calc(-100% + 50px));
+      transform: translateY(calc(-100% + 20px));
     }
 }
