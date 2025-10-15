@@ -7,7 +7,7 @@
 - Supervised / Unsupervised learning for medical images / signals.
 
 ### Phyeical Knowledge-Informed Machine Learning/Deep Learning
-- Physics knowledge-designed Network.
-- Physics knowledge-embedded Methods.
-- Physics knowlegde Constraint Losses.
+- Physics knowledge-designed network.
+- Physics knowledge-embedded methods.
+- Physics knowlegde Constraint losses.
 
