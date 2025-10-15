@@ -190,72 +190,72 @@ Study on operation analysis and decision making for sharing-bicycles. Hong Zhang
 </div>
 
 ### 💡 Patents:
-1. Heart rate estimation method based on cross-modal mapping of heart impact map signals  
+- Heart rate estimation method based on cross-modal mapping of heart impact map signals  
    Shuiping Gou, Yuanjie Liu, Ningtao Liu, **Yu Sha**, Changzhe Jiao, Dong Hai, Shasha Mao, Jiaxin Cheng  
    *Invention Patent* | CN111887858B  
 
-2. Hierarchical Cavitation Intensity Recognition Using Sub-Master Transition Network-based Acoustic Signals in Pipeline Systems 
+- Hierarchical Cavitation Intensity Recognition Using Sub-Master Transition Network-based Acoustic Signals in Pipeline Systems 
    Shuiping Gou, **Yu Sha**, Zhang Guo, Bo Liu  
    *Invention Patent* | 202310945885.1  
 
-3. Face Aging Method Based on Adversarial Learning of Local and Global Region Policies  
+- Face Aging Method Based on Adversarial Learning of Local and Global Region Policies  
    Shuiping Gou, Ruichen Xue, Nuo Tong, Ruimin Li, **Yu Sha**, Ningtao Liu  
    *Invention Patent* | 202310941541.3  
 
-4. Physics-Guided Global Filtering Attention Convolutional Neural Networks for Image Classification  
+- Physics-Guided Global Filtering Attention Convolutional Neural Networks for Image Classification  
    Zhang Guo, Huiyu Chen, Shuiping Gou, **Yu Sha**, Xinlin Wang, Bo Liu  
    *Invention Patent* | 202411474637.4
 
 
 # 🔧 Projects
 ### Xidian University (XDU)
-1. Analysis of battlefield situation of artificial intelligence in the context of big data
+- Analysis of battlefield situation of artificial intelligence in the context of big data
    *The 20th Research Institute of China Electronics Technology Group Corporation-Xidian Joint Laboratory for Artificial Intelligence* | **Completed** | **Project Participant**
-2. Knee intensity recognition for smart wearable devices based on machine learning  
+- Knee intensity recognition for smart wearable devices based on machine learning  
    *Xijing Hospital* | **Completed** | **Project Participant**
 
 ### Frankfurt Institute for Advanced Studies (FIAS)
-1. Cavitation and leakage detection in large pump/pipe using AI method  
+- Cavitation and leakage detection in large pump/pipe using AI method  
    *SAMSON AG* | **Completed** | **Project Participant**
 
 ### Lanzhou University of Technology (LUT)
-1. LoRa based non-contact life detection system  
+- LoRa based non-contact life detection system  
    *National Undergraduate Innovation and Entrepreneurship Training Project* | **Completed** | **Project Participant**
-2. Evaluation of students' comprehensive ability and program design based on fuzzy theory  
+- Evaluation of students' comprehensive ability and program design based on fuzzy theory  
    *LUT Innovation and Entrepreneurship Training Program* | **Completed** | **Project Leader**
-3. Research on the cultivation of college students' creative ability by mathematical modeling competition  
+- Research on the cultivation of college students' creative ability by mathematical modeling competition  
    *LUT Technology Innovation Fund* | **Completed** | **Project Participant**
-4. WeChat program design for second-hand transaction and donation platform on campus 
+- WeChat program design for second-hand transaction and donation platform on campus 
    *LUT Technology Innovation Fund* | **Completed** | **Project Participant**
 
 # 🏆 Honors and Awards
 
 ### Xidian University (XDU)
-1. *2025*, Outstanding Graduate Doctoral Student, XDU  
-2. *2022*, Outstanding Doctoral Students, XDU  
-3. *2022*, Graduate Student Academic Scholarships (**First Level**), XDU  
-4. *2021*, Outstanding Doctoral Students, XDU  
-5. *2021*, Graduate Student Academic Scholarships (**Second Level**), XDU  
-6. *2021*, OGB Large-Scale Challenge, KDD Cup 2021, Team Name: **yfishlab**, World Ranking: **Top 48**  
-7. *2020*, Outstanding Doctoral Students, XDU  
-8. *2020*, Graduate Student Academic Scholarships (**Second Level**), XDU  
-9. *2020*, ZhiPu AI: COVID-19 Prediction, **Top 7**  
-10. *2020*, iFLYTEK Algorithm Competition: Temperature Prediction Challenge, Team Name: **San Ren Xing**, **Top 5**
+- *2025*, Outstanding Graduate Doctoral Student, XDU  
+- *2022*, Outstanding Doctoral Students, XDU  
+- *2022*, Graduate Student Academic Scholarships (**First Level**), XDU  
+- *2021*, Outstanding Doctoral Students, XDU  
+- *2021*, Graduate Student Academic Scholarships (**Second Level**), XDU  
+- *2021*, OGB Large-Scale Challenge, KDD Cup 2021, Team Name: **yfishlab**, World Ranking: **Top 48**  
+- *2020*, Outstanding Doctoral Students, XDU  
+- *2020*, Graduate Student Academic Scholarships (**Second Level**), XDU  
+- *2020*, ZhiPu AI: COVID-19 Prediction, **Top 7**  
+- *2020*, iFLYTEK Algorithm Competition: Temperature Prediction Challenge, Team Name: **San Ren Xing**, **Top 5**
 
 ### Lanzhou University of Technology (LUT)
-1. *2019*, Outstanding Graduates Awards, LUT  
-2. *2018*, Meritorious Winner of Mathematical Contest in Modeling (**MCM/ICM**)  
-3. *2018*, First Prize in the 8th MathorCup College Student Mathematical Modeling Challenge  
-4. *2018*, First Prize in the 6th Teddy Cup Data Mining Challenge Competition  
-5. *2018*, Pacemaker to Merit Student, LUT  
-6. *2017*, First Prize of 2017 China Cup · Science and Technology Innovation Contest  
-7. *2017*, Second Prize in 2017 Asia and Pacific Mathematical Contest in Modeling  
-8. *2017*, First Prize of Gansu Division in 2017 National College Mathematical Modeling Contest of Higher Education Cup  
-9. *2017*, Third Prize in the 7th MathorCup College Student Mathematical Modeling Challenge  
-10. *2017*, Merit Student, LUT  
-11. *2017*, Merit Student, Gansu Province  
-12. *2017*, National Encouragement Scholarship  
-13. *2016*, National Encouragement Scholarship
+- *2019*, Outstanding Graduates Awards, LUT  
+- *2018*, Meritorious Winner of Mathematical Contest in Modeling (**MCM/ICM**)  
+- *2018*, First Prize in the 8th MathorCup College Student Mathematical Modeling Challenge  
+- *2018*, First Prize in the 6th Teddy Cup Data Mining Challenge Competition  
+- *2018*, Pacemaker to Merit Student, LUT  
+- *2017*, First Prize of 2017 China Cup · Science and Technology Innovation Contest  
+- *2017*, Second Prize in 2017 Asia and Pacific Mathematical Contest in Modeling  
+- *2017*, First Prize of Gansu Division in 2017 National College Mathematical Modeling Contest of Higher Education Cup  
+- *2017*, Third Prize in the 7th MathorCup College Student Mathematical Modeling Challenge  
+- *2017*, Merit Student, LUT  
+- *2017*, Merit Student, Gansu Province  
+- *2017*, National Encouragement Scholarship  
+- *2016*, National Encouragement Scholarship
 
 
 # 💬 Invited Talks
