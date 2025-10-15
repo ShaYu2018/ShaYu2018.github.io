@@ -150,9 +150,9 @@ h1:before, .anchor:before {
 
 @keyframes scrollNews {
   0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-100%);
-  }
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(calc(-100% + 400px));
+    }
 }
