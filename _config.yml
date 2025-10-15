@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Yu Sha (沙毓) Academic"
+title                    : "Yu Sha (沙毓)"
 description              : "Postdoctoral Researcher, Assistant Researcher "
 repository               : "ShaYu2018/ShaYu2018.github.io"
 google_scholar_stats_use_cdn : true
