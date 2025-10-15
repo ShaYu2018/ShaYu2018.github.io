@@ -202,7 +202,7 @@ Study on operation analysis and decision making for sharing-bicycles. Hong Zhang
    *Invention Patent* | 202411474637.4
 
 
-# 🧰 Projects
+# 🔧 Projects
 ### Xidian University (XDU)
 1. Analysis of battlefield situation of artificial intelligence in the context of big data
    *The 20th Research Institute of China Electronics Technology Group Corporation-Xidian Joint Laboratory for Artificial Intelligence* | **Completed** | **Project Participant**
