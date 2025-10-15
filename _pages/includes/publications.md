@@ -134,3 +134,24 @@ Study on operation analysis and decision making for sharing-bicycles. Hong Zhang
 - Physics-Guided Global Filtering Attention Convolutional Neural Networks for Image Classification  
    Zhang Guo, Huiyu Chen, Shuiping Gou, **Yu Sha**, Xinlin Wang, Bo Liu  
    *Invention Patent* | 202411474637.4
+
+
+  
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const papers = document.querySelectorAll(".paper-box-text"); 
+    let num = 1; // 从1开始
+    papers.forEach(paper => {
+        // 在第一个子元素前插入序号（数字和一个点）
+        const firstChild = paper.firstElementChild;
+        if (firstChild) {
+            // 创建一个 span 来显示编号
+            const numSpan = document.createElement("span");
+            numSpan.textContent = num + ". ";
+            numSpan.style.fontWeight = "bold";
+            firstChild.insertAdjacentElement("afterbegin", numSpan);
+            num++;
+        }
+    });
+});
+</script>
