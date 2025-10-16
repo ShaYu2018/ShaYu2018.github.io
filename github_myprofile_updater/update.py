@@ -1,1 +1,33 @@
-
+if __name__ == '__main__':
+    _header = '## Hi there 👋'
+    base_dir = '../_pages/includes/'
+    _intro = open(f'{base_dir}/intro.md').read().strip()
+    _news = open(f'{base_dir}/news.md').read().strip()
+    _researches = open(f'{base_dir}/researches.md').read().strip()
+    _experiences = open(f'{base_dir}/experiences.md').read().strip()
+    _educations = open(f'{base_dir}/educations.md').read().strip()
+    _publications = open(f'{base_dir}/publications.md').read().strip()
+    _projects = open(f'{base_dir}/projects.md').read().strip()
+    _honers = open(f'{base_dir}/honers.md').read().strip()
+    _talks = open(f'{base_dir}/talks.md').read().strip()
+   
+    with open('README.md', 'w') as f:
+        f.write(_header)
+        f.write('\n\n')
+        f.write(_intro)
+        f.write('\n\n##')
+        f.write(_news)
+        f.write('\n\n##')
+        f.write(_researches)
+        f.write('\n\n##')
+        f.write(_experiences)
+        f.write('\n\n##')
+        f.write(_educations)
+        f.write('\n\n##')
+        f.write(_publications)
+        f.write('\n\n##')
+        f.write(_projects)
+        f.write('\n\n##')
+        f.write(_honers)
+        f.write('\n\n##')
+        f.write(_talks)
