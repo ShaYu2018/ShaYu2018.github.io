@@ -16,5 +16,6 @@
    *LUT Innovation and Entrepreneurship Training Program* | **Completed** | **Project Leader**
 - Research on the cultivation of college students' creative ability by mathematical modeling competition  
    *LUT Technology Innovation Fund* | **Completed** | **Project Participant**
-- WeChat program design for second-hand transaction and donation platform on campus
+- WeChat program design for second-hand transaction and donation platform on campus  
    *LUT Technology Innovation Fund* | **Completed** | **Project Participant**
+
