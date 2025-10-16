@@ -128,7 +128,7 @@ h1:before, .anchor:before {
   top: 0;
   left: 0;
   width: 100%;
-  animation: scrollNews 5s linear infinite;
+  animation: scrollNews 10s linear infinite;
 }
 
 .news-scroll li {
@@ -153,6 +153,6 @@ h1:before, .anchor:before {
       transform: translateY(0);
     }
     100% {
-      transform: translateY(calc(-100% + 300px));
+      transform: translateY(calc(-100% + 200px));
     }
 }
