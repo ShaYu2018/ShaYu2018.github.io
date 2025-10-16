@@ -121,9 +121,9 @@ Study on operation analysis and decision making for sharing-bicycles. Hong Zhang
 ### 💡 Patents:
 - Heart rate estimation method based on cross-modal mapping of heart impact map signals  
    Shuiping Gou, Yuanjie Liu, Ningtao Liu, **Yu Sha**, Changzhe Jiao, Dong Hai, Shasha Mao, Jiaxin Cheng  
-   *Invention Patent* | CN111887858B  
+   *Invention Patent* | CN111887858B
 
-- Hierarchical Cavitation Intensity Recognition Using Sub-Master Transition Network-based Acoustic Signals in Pipeline Systems 
+- Hierarchical Cavitation Intensity Recognition Using Sub-Master Transition Network-based Acoustic Signals in Pipeline Systems  
    Shuiping Gou, **Yu Sha**, Zhang Guo, Bo Liu  
    *Invention Patent* | 202310945885.1  
 
