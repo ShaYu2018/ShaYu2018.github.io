@@ -50,64 +50,47 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 <script>
-async function updateCitationNumbers() {
-    try {
-        console.log('开始加载引用数据...');
+// 使用CSS样式创建徽章
+fetch('/google_scholar_crawler/results/gs_data.json')
+    .then(r => r.json())
+    .then(data => {
+        const map = {};
+        data.publications.forEach(pub => map[pub.author_pub_id] = pub.num_citations || 0);
         
-        // 使用绝对路径
-        const response = await fetch('/google_scholar_crawler/results/gs_data.json');
-        if (!response.ok) {
-            throw new Error('无法加载数据文件');
-        }
-        
-        const data = await response.json();
-        console.log('成功加载数据，文章数量:', data.publications.length);
-        
-        // 创建 pub_id 到引用数的映射
-        const citationMap = {};
-        data.publications.forEach(pub => {
-            citationMap[pub.author_pub_id] = pub.num_citations || 0;
-        });
-        
-        console.log('创建映射表:', citationMap);
-        
-        // 为每个徽章创建图片
-        const badges = document.querySelectorAll('.citation-badge');
-        console.log('找到徽章数量:', badges.length);
-        
-        badges.forEach((badge, index) => {
+        document.querySelectorAll('[data-pub-id]').forEach(badge => {
             const pubId = badge.getAttribute('data-pub-id');
-            const citations = citationMap[pubId];
-            
-            console.log(`处理第${index + 1}个徽章:`, pubId, '引用数:', citations);
-            
+            const citations = map[pubId];
             if (citations !== undefined) {
                 const link = badge.querySelector('a');
                 if (link) {
-                    // 清空链接内容（移除任何现有内容）
-                    link.innerHTML = '';
-                    
-                    // 创建图片
-                    const img = document.createElement('img');
-                    img.src = `https://img.shields.io/badge/Citations-${citations}-blue`;
-                    img.alt = `Citations: ${citations}`;
-                    img.style.verticalAlign = 'middle';
-                    
-                    link.appendChild(img);
-                    console.log(`✅ 为 ${pubId} 设置引用数: ${citations}`);
+                    link.className = 'citation-badge-link';
+                    link.innerHTML = `Citations: ${citations}`;
                 }
-            } else {
-                console.log(`❌ 未找到 ${pubId} 的引用数据`);
             }
         });
-        
-        console.log('🎉 引用数字更新完成');
-        
-    } catch (error) {
-        console.log('引用数字更新失败:', error);
-    }
-}
+    });
 
-// 确保页面完全加载后执行
-document.addEventListener('DOMContentLoaded', updateCitationNumbers);
+// 添加CSS样式
+const style = document.createElement('style');
+style.textContent = `
+    .citation-badge-link {
+        display: inline-block;
+        background: linear-gradient(45deg, #007acc, #005a9e);
+        color: white !important;
+        padding: 4px 12px;
+        border-radius: 15px;
+        font-size: 12px;
+        font-weight: bold;
+        text-decoration: none;
+        margin-left: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        transition: all 0.3s ease;
+    }
+    .citation-badge-link:hover {
+        background: linear-gradient(45deg, #005a9e, #004080);
+        transform: translateY(-1px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+`;
+document.head.appendChild(style);
 </script>
