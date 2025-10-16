@@ -14,7 +14,7 @@
 
 ### Lanzhou University of Technology (LUT)
 - *2019*, Outstanding Graduates Awards, LUT  
-- *2018*, Meritorious Winner of Mathematical Contest in Modeling (**MCM/ICM**)  
+- *2018*, Meritorious Winner of Mathematical Contest in Modeling (MCM/ICM)  
 - *2018*, First Prize in the 8th MathorCup College Student Mathematical Modeling Challenge  
 - *2018*, First Prize in the 6th Teddy Cup Data Mining Challenge Competition  
 - *2018*, Pacemaker to Merit Student, LUT  
