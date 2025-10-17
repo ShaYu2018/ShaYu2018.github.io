@@ -136,45 +136,4 @@ Study on operation analysis and decision making for sharing-bicycles. Hong Zhang
    *Invention Patent* | 202411474637.4
 
 
-<script>
-window.addEventListener('load', () => {
-  // 修改成你的 JSON 路径（可访问）
-  fetch('/assets/data/gs_data.json')
-    .then(res => res.json())
-    .then(data => {
-      const pubs = data.publications;
 
-      // 遍历所有论文展示框
-      document.querySelectorAll('.paper-box-text').forEach(box => {
-        // 取第一行文字作为标题
-        let lines = box.innerText.trim().split('\n').map(line => line.trim()).filter(line => line);
-        let titleText = lines[0].toLowerCase().replace(/\s+/g, ' ');
-
-        // 在 JSON 中查找匹配（忽略大小写和多空格）
-        const match = pubs.find(pub =>
-          pub.bib.title.trim().toLowerCase().replace(/\s+/g, ' ') === titleText
-        );
-
-        if (match) {
-          const cites = match.num_citations || 0;
-          const scholarLink = match.citedby_url || 'https://scholar.google.com';
-
-          // 生成引用数Badge
-          const badge = document.createElement('a');
-          badge.href = scholarLink;
-          badge.target = '_blank';
-          badge.innerHTML = `<img src="https://img.shields.io/badge/Citations-${cites}-blue" alt="Citations" style="margin-left:6px;">`;
-
-          // 把 Badge 插到标题后面
-          const firstParagraph = box.querySelector('p');
-          if (firstParagraph) {
-            firstParagraph.appendChild(badge);
-          } else {
-            box.insertBefore(badge, box.firstChild);
-          }
-        }
-      });
-    })
-    .catch(err => console.error('加载 gs_data.json 失败:', err));
-});
-</script>
