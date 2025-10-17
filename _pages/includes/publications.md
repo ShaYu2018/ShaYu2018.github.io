@@ -137,24 +137,43 @@ Study on operation analysis and decision making for sharing-bicycles. Hong Zhang
 
 
 <script>
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
+  console.log("✅ JS 已加载到 Publications 页面");
+
+  // Step 1: JSON 获取
   fetch('/assets/data/gs_data.json')
-    .then(res => res.json())
+    .then(res => {
+      if (!res.ok) throw new Error('❌ JSON 文件无法访问');
+      return res.json();
+    })
     .then(data => {
+      console.log("✅ JSON 已成功加载");
+      console.log("    数据示例:", data.publications.slice(0, 2));
+
       const pubs = data.publications;
 
-      document.querySelectorAll('.paper-box-text').forEach(box => {
-        // 提取第一行作为标题
-        let lines = box.innerText.trim().split('\n').map(line => line.trim()).filter(line => line);
-        let titleText = lines[0].toLowerCase();
+      // Step 2: 选取论文元素
+      const elems = document.querySelectorAll('.paper-box-text');
+      console.log(`✅ 检测到 ${elems.length} 个 .paper-box-text 元素`);
 
-        // 在 JSON 中匹配标题（忽略大小写和多余空格）
-        const match = pubs.find(pub => 
+      // Step 3: 遍历元素并试图插入 Badge
+      elems.forEach((box, idx) => {
+        let lines = box.innerText.trim()
+          .split('\n')
+          .map(line => line.trim())
+          .filter(line => line);
+
+        let titleText = lines[0].toLowerCase();
+        console.log(`📄 [${idx}] 页面标题: "${titleText}"`);
+
+        // Step 4: 匹配 JSON 标题
+        const match = pubs.find(pub =>
           pub.bib.title.trim().toLowerCase().replace(/\s+/g, ' ') ===
           titleText.replace(/\s+/g, ' ')
         );
 
         if (match) {
+          console.log(`✅ 匹配成功: "${match.bib.title}", 引用数: ${match.num_citations}`);
           const cites = match.num_citations || 0;
           const scholarLink = match.citedby_url || 'https://scholar.google.com';
 
@@ -163,17 +182,17 @@ window.addEventListener('DOMContentLoaded', () => {
           badge.target = '_blank';
           badge.innerHTML = `<img src="https://img.shields.io/badge/Citations-${cites}-blue" alt="Citations" style="margin-left:6px;">`;
 
-          // 找标题所在的第一个 <p> 标签并在其后插入 Badge
           const firstParagraph = box.querySelector('p');
           if (firstParagraph) {
             firstParagraph.appendChild(badge);
           } else {
-            // 如果没有 <p>，直接加到 box 元素开头
             box.insertBefore(badge, box.firstChild);
           }
+        } else {
+          console.warn(`⚠️ 匹配失败: "${titleText}"`);
         }
       });
     })
-    .catch(err => console.error('加载 Citation 数据失败:', err));
+    .catch(err => console.error(err));
 });
 </script>
