@@ -5,6 +5,7 @@
 <div class='paper-box-text' markdown="1">
 
 Hierarchical Knowledge Guided Fault Intensity Diagnosis of Complex Industrial Systems 
+
 **Yu Sha**, Shuiping Gou, Bo Liu, Ningtao Liu, Johannes Faber, Stefan Schramm, Horst Stoecker, Thomas Steckenreiter, Domagoj Vnucec, Nadine Wetzstein, Andreas Widl, Kai Zhou 
 
 **SIGKDD 2024** | **CCF: A** | [Paper](https://doi.org/10.1145/3637528.3671610) | [Code](https://github.com/CavitationDetection/HKG)
