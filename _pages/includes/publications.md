@@ -138,61 +138,43 @@ Study on operation analysis and decision making for sharing-bicycles. Hong Zhang
 
 <script>
 window.addEventListener('load', () => {
-  console.log("✅ JS 已加载到 Publications 页面");
-
-  // Step 1: JSON 获取
+  // 修改成你的 JSON 路径（可访问）
   fetch('/assets/data/gs_data.json')
-    .then(res => {
-      if (!res.ok) throw new Error('❌ JSON 文件无法访问');
-      return res.json();
-    })
+    .then(res => res.json())
     .then(data => {
-      console.log("✅ JSON 已成功加载");
-      console.log("    数据示例:", data.publications.slice(0, 2));
-
       const pubs = data.publications;
 
-      // Step 2: 选取论文元素
-      const elems = document.querySelectorAll('.paper-box-text');
-      console.log(`✅ 检测到 ${elems.length} 个 .paper-box-text 元素`);
+      // 遍历所有论文展示框
+      document.querySelectorAll('.paper-box-text').forEach(box => {
+        // 取第一行文字作为标题
+        let lines = box.innerText.trim().split('\n').map(line => line.trim()).filter(line => line);
+        let titleText = lines[0].toLowerCase().replace(/\s+/g, ' ');
 
-      // Step 3: 遍历元素并试图插入 Badge
-      elems.forEach((box, idx) => {
-        let lines = box.innerText.trim()
-          .split('\n')
-          .map(line => line.trim())
-          .filter(line => line);
-
-        let titleText = lines[0].toLowerCase();
-        console.log(`📄 [${idx}] 页面标题: "${titleText}"`);
-
-        // Step 4: 匹配 JSON 标题
+        // 在 JSON 中查找匹配（忽略大小写和多空格）
         const match = pubs.find(pub =>
-          pub.bib.title.trim().toLowerCase().replace(/\s+/g, ' ') ===
-          titleText.replace(/\s+/g, ' ')
+          pub.bib.title.trim().toLowerCase().replace(/\s+/g, ' ') === titleText
         );
 
         if (match) {
-          console.log(`✅ 匹配成功: "${match.bib.title}", 引用数: ${match.num_citations}`);
           const cites = match.num_citations || 0;
           const scholarLink = match.citedby_url || 'https://scholar.google.com';
 
+          // 生成引用数Badge
           const badge = document.createElement('a');
           badge.href = scholarLink;
           badge.target = '_blank';
           badge.innerHTML = `<img src="https://img.shields.io/badge/Citations-${cites}-blue" alt="Citations" style="margin-left:6px;">`;
 
+          // 把 Badge 插到标题后面
           const firstParagraph = box.querySelector('p');
           if (firstParagraph) {
             firstParagraph.appendChild(badge);
           } else {
             box.insertBefore(badge, box.firstChild);
           }
-        } else {
-          console.warn(`⚠️ 匹配失败: "${titleText}"`);
         }
       });
     })
-    .catch(err => console.error(err));
+    .catch(err => console.error('加载 gs_data.json 失败:', err));
 });
 </script>
