@@ -1,0 +1,42 @@
+<script>
+fetch('/assets/data/gs_data.json') // 确保 JSON 路径能访问
+  .then(res => {
+    if (!res.ok) throw new Error('无法加载 gs_data.json');
+    return res.json();
+  })
+  .then(data => {
+    const pubs = data.publications;
+    document.querySelectorAll('.paper-box-text').forEach(box => {
+      let lines = box.innerText.trim().split('\n').map(
+        line => line.trim()
+      ).filter(line => line.length > 0);
+
+      // 取第一行作为标题并小写统一
+      let titleText = lines[0].toLowerCase();
+
+      // 匹配 JSON 中的 bib.title（忽略大小写）
+      const match = pubs.find(pub => pub.bib.title.trim().toLowerCase() === titleText);
+      if (match) {
+        const cites = match.num_citations || 0;
+        const scholarLink = match.citedby_url || 'https://scholar.google.com';
+
+        // 创建 Badge
+        const badge = document.createElement('a');
+        badge.href = scholarLink;
+        badge.target = '_blank';
+        badge.innerHTML = `<img src="https://img.shields.io/badge/Citations-${cites}-blue" alt="Citations" style="margin-left:6px;">`;
+
+        // 插到标题后
+        const firstNode = box.firstChild;
+        if (firstNode) {
+          box.insertBefore(badge, box.childNodes[1] || null);
+        } else {
+          box.prepend(badge);
+        }
+      } else {
+        console.warn('没有匹配到标题:', titleText);
+      }
+    });
+  })
+  .catch(err => console.error(err));
+</script>
