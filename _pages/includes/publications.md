@@ -138,41 +138,42 @@ Study on operation analysis and decision making for sharing-bicycles. Hong Zhang
 
 <script>
 window.addEventListener('DOMContentLoaded', () => {
-  // 1. 读取 JSON
   fetch('/assets/data/gs_data.json')
     .then(res => res.json())
     .then(data => {
       const pubs = data.publications;
 
-      // 2. 遍历所有论文框
       document.querySelectorAll('.paper-box-text').forEach(box => {
-        // 取第一行文字作为标题
+        // 提取第一行作为标题
         let lines = box.innerText.trim().split('\n').map(line => line.trim()).filter(line => line);
         let titleText = lines[0].toLowerCase();
 
-        // 3. 进行模糊匹配（忽略大小写和多空格）
-        const match = pubs.find(pub => pub.bib.title.trim().toLowerCase().replace(/\s+/g,' ') === titleText.replace(/\s+/g,' '));
+        // 在 JSON 中匹配标题（忽略大小写和多余空格）
+        const match = pubs.find(pub => 
+          pub.bib.title.trim().toLowerCase().replace(/\s+/g, ' ') ===
+          titleText.replace(/\s+/g, ' ')
+        );
 
-        // 4. 如果匹配到，则插入 Badge
         if (match) {
           const cites = match.num_citations || 0;
           const scholarLink = match.citedby_url || 'https://scholar.google.com';
-          
+
           const badge = document.createElement('a');
           badge.href = scholarLink;
           badge.target = '_blank';
           badge.innerHTML = `<img src="https://img.shields.io/badge/Citations-${cites}-blue" alt="Citations" style="margin-left:6px;">`;
 
-          // 插到标题后面
-          if (box.firstChild) {
-            box.insertBefore(badge, box.childNodes[1] || null);
+          // 找标题所在的第一个 <p> 标签并在其后插入 Badge
+          const firstParagraph = box.querySelector('p');
+          if (firstParagraph) {
+            firstParagraph.appendChild(badge);
           } else {
-            box.appendChild(badge);
+            // 如果没有 <p>，直接加到 box 元素开头
+            box.insertBefore(badge, box.firstChild);
           }
         }
       });
     })
-    .catch(err => console.error('Citation Badge 加载失败:', err));
+    .catch(err => console.error('加载 Citation 数据失败:', err));
 });
 </script>
-
