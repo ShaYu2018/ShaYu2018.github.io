@@ -30,7 +30,7 @@ if match:
             badge_pattern = r'<img src="https://img.shields.io/badge/Citations-\d+-blue" alt="Citations">'
             if re.search(badge_pattern, text_after):
                 # 已有 Badge → 替换数字
-                text_after = re.sub(r'(Citations-)\d+(-blue)', rf'\1{cites}\2', text_after)
+                text_after = re.sub(r'(Citations-)\d+(-blue)', rf'\g<1>{cites}\g<2>', text_after)
             else:
                 # 没有 Badge → 插入
                 badge_html = f' <a href="https://scholar.google.com.hk/citations?user=e5ng8m0AAAAJ" target="_blank"><img src="https://img.shields.io/badge/Citations-{cites}-blue" alt="Citations"></a>'
