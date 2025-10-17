@@ -1,4 +1,5 @@
 <script>
+console.log("调试：scripts.html 已加载并执行");
 fetch('/assets/data/gs_data.json') // 确保 JSON 路径能访问
   .then(res => {
     if (!res.ok) throw new Error('无法加载 gs_data.json');
