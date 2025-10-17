@@ -27,11 +27,14 @@ jobs:
           cd google_scholar_crawler  # 进入子目录
           python update_scholar.py    # 执行脚本
           cd ..                      # 返回根目录
-      - name: Update citations in publications.md (by title)
+          
+      - name: Update citations in publications
         run: |
           cd google_scholar_crawler  
-          python update_html_citations.py.py   
-          cd ..                          
+          python update_html_citations.py  
+          cd ..    
+          
+       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
