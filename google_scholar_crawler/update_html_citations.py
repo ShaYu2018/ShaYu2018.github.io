@@ -15,7 +15,7 @@ file_path = "../_pages/includes/publications.md"
 with open(file_path, "r", encoding="utf-8") as f:
     content = f.read()
 
-# 3. 定位 Papers 部分（只更新这一块）
+# 3. 只处理 ### 📝 Papers 段落
 match = re.search(r"(### 📝 Papers:.*?)(?=\n### |\Z)", content, flags=re.S)
 if match:
     papers_section = match.group(1)
@@ -27,26 +27,27 @@ if match:
         def repl(m):
             text_after = m.group(2) or ""
             badge_pattern = r'<img src="https://img.shields.io/badge/Citations-\d+-blue" alt="Citations">'
-            badge_html = f' <a href="https://scholar.google.com.hk/citations?user=e5ng8m0AAAAJ" target="_blank"><img src="https://img.shields.io/badge/Citations-{cites}-blue" alt="Citations"></a>'
+            # 在 Badge 前统一加 " | "
+            badge_html = f' | <a href="https://scholar.google.com.hk/citations?user=e5ng8m0AAAAJ" target="_blank"><img src="https://img.shields.io/badge/Citations-{cites}-blue" alt="Citations"></a>'
 
-            # 已有 Badge → 更新数字
             if re.search(badge_pattern, text_after):
+                # 已有 Badge → 更新数字
                 text_after = re.sub(r'(Citations-)\d+(-blue)', rf'\g<1>{cites}\g<2>', text_after)
 
             else:
-                # ① 如果有图片（但不是引用数 Badge） → 标题后插 Badge
+                # ① 如果有图片（但不是 Citation Badge） → 标题后插 Badge
                 if re.search(r'<img(?! src="https://img\.shields\.io/badge/Citations)', text_after):
                     text_after = badge_html + text_after
 
-                # ② 否则如果同时有 Paper 和 Code → 插在 Code 后面
+                # ② 如果同时有 Paper 和 Code → 插在 Code 后
                 elif re.search(r'\| \[Paper\]', text_after) and re.search(r'\| \[Code\]', text_after):
                     text_after = re.sub(r'(\| \[Code\]\([^)]+\))', rf'\1{badge_html}', text_after, count=1)
 
-                # ③ 否则如果只有 Paper → 插在 Paper 后面
+                # ③ 如果只有 Paper → 插在 Paper 后
                 elif re.search(r'\| \[Paper\]', text_after):
                     text_after = re.sub(r'(\| \[Paper\]\([^)]+\))', rf'\1{badge_html}', text_after, count=1)
 
-                # ④ 默认情况 → 标题后插 Badge
+                # ④ 默认 → 标题后插 Badge
                 else:
                     text_after = badge_html + text_after
 
@@ -57,8 +58,8 @@ if match:
     # 5. 替换原文中的 Papers 段落
     content = content.replace(match.group(1), papers_section)
 
-# 6. 保存更新后的文件
+# 6. 保存结果
 with open(file_path, "w", encoding="utf-8") as f:
     f.write(content)
 
-print("✅ 已更新 Papers 段落中的 Citation Badge!")
+print("✅ 已更新 Papers 段落中的 Citation Badge (带 ' | ' 前缀)!")
