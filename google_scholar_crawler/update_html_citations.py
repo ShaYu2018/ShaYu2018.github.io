@@ -2,7 +2,7 @@ import json
 import re
 
 # 1. 加载爬虫结果 JSON
-with open("google_scholar_crawler/results/gs_data.json", "r", encoding="utf-8") as f:
+with open("results/gs_data.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # 2. 构建标题 → 引用数映射，忽略大小写和多空格
