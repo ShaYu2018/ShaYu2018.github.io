@@ -11,7 +11,7 @@ citation_map = {
     for pub in data.get("publications", [])
 }
 
-file_path = "_pages/includes/publications.md"
+file_path = "../_pages/includes/publications.md"
 with open(file_path, "r", encoding="utf-8") as f:
     content = f.read()
 
