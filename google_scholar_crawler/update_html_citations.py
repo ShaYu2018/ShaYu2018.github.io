@@ -5,7 +5,7 @@ import re
 with open("results/gs_data.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
-# 2. 构建标题 → 引用数映射（忽略大小写）
+# 2. 构建 标题 → 引用数 映射（忽略大小写）
 citation_map = {
     pub["bib"]["title"].strip().lower(): int(pub.get("num_citations", 0))
     for pub in data.get("publications", [])
@@ -20,21 +20,27 @@ match = re.search(r"(### 📝 Papers:.*?)(?=\n### |\Z)", content, flags=re.S)
 if match:
     papers_section = match.group(1)
 
-    # 4. 在 papers_section 内更新/插入引用数
+    # 4. 在 papers_section 内更新或插入引用数
     for title, cites in citation_map.items():
         title_pattern = re.escape(title)
 
-        # 查找标题并更新或插入 Badge
         def repl(m):
             text_after = m.group(2) or ""
             badge_pattern = r'<img src="https://img.shields.io/badge/Citations-\d+-blue" alt="Citations">'
+            badge_html = f' <a href="https://scholar.google.com.hk/citations?user=e5ng8m0AAAAJ" target="_blank"><img src="https://img.shields.io/badge/Citations-{cites}-blue" alt="Citations"></a>'
+
             if re.search(badge_pattern, text_after):
-                # 已有 Badge → 替换数字
+                # 已有 Badge → 更新数字
                 text_after = re.sub(r'(Citations-)\d+(-blue)', rf'\g<1>{cites}\g<2>', text_after)
             else:
-                # 没有 Badge → 插入
-                badge_html = f' <a href="https://scholar.google.com.hk/citations?user=e5ng8m0AAAAJ" target="_blank"><img src="https://img.shields.io/badge/Citations-{cites}-blue" alt="Citations"></a>'
-                text_after = badge_html + text_after
+                # 没有 Badge → 判断插入位置
+                if re.search(r'\| \[Paper\]', text_after) or re.search(r'\| \[Code\]', text_after):
+                    # 在括号结尾前插入 Badge
+                    text_after = re.sub(r'(\))', f'{badge_html}\\1', text_after, count=1)
+                else:
+                    # 标题后直接插入
+                    text_after = badge_html + text_after
+
             return m.group(1) + text_after
 
         papers_section = re.sub(rf'({title_pattern})(.*)', repl, papers_section, flags=re.I)
